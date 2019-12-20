@@ -21,5 +21,5 @@ class Dog
   # @@all.each do |name|
   #  puts name
   # end
-  return all_names.to_s
+  return self.print_all
 end
