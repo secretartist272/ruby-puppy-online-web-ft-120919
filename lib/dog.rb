@@ -18,9 +18,9 @@ class Dog
   end
   
   def Dog.print_all
-    @@all.each do |name|
-      puts name
+    @@all.each do |Dog|
+      puts Dog
     end
-    returns name.to_s
+    returns Dog.to_s
   end
 end
