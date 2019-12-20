@@ -18,8 +18,8 @@ class Dog
   end
   
   def self.print_all
-    @@all.each do |Dog|
-      puts Dog
+    @@all.each do |dog|
+      puts dog
     end
     returns Dog.to_s
   end
