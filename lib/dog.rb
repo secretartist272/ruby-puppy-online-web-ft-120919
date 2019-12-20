@@ -17,10 +17,10 @@ class Dog
     
   end
   
-  def self.print
+  def self.print_all
     # @@all.each do |dog|
     #   puts dog
     # end
-    returns Dog.to_s
+    returns self.to_s
   end
 end
