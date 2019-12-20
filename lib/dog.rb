@@ -17,9 +17,10 @@ class Dog
     
   end
   
-  def self.print
+  def Dog.print_all
     @@all.each do |name|
       puts name
     end
+    returns self.to_s
   end
 end
